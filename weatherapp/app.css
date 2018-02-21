@@ -1,0 +1,54 @@
+
+h1,h2,h3,span{
+    margin: 0;
+}
+
+h1{
+    font-size: 16rem;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.4rem;
+}
+
+span{
+    font-size: 6rem;
+}
+
+.degrees{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.container{
+    max-width: 550px;
+    height: 90vh;
+    border: 6px solid black;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-rows: 20% 80%;
+    text-align: center;
+    padding: 25px 5px;
+    color: #70e1f5;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+
+}
+
+body{
+    background: #485563;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aquamarine;    
+    
+
+
+}
